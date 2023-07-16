@@ -50,6 +50,7 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 10px 10px 0px 0px rgb(0, 0, 0, 0.4)
     
 }
 
@@ -94,8 +95,8 @@ body{
 
 /* Media query section */
 @media screen and (max-width: 1000px) {
-    .quote-container {
-     margin: 20px 30px;
+    .quotecontainer {
+     margin: 20px;
      
      width: auto;
     }
@@ -107,6 +108,7 @@ body{
   @media screen and (max-width: 690px) {
    
     .long-quote{
+        font-weight: 700;
         font-size: 1rem;
     }
   }
